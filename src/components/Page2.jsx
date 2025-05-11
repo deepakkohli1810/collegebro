@@ -2,8 +2,8 @@ import React from 'react';
 
 const Page2 = () => {
   return (
-    <div className="relative bg-black min-h-screen w-screen overflow-x-hidden px-4 sm:px-8 md:px-12">
-      {/* Heading Section */}
+    <div className="relative bg-black h-full w-full  overflow-x-hidden px-4 sm:px-8 md:px-12">
+      
       <div className="flex items-center justify-center flex-col mt-[6rem] sm:mt-[8rem] lg:mt-[10rem] gap-10 sm:gap-16">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center text-violet-300 font-BrickSans">
           Imagine
@@ -14,7 +14,7 @@ const Page2 = () => {
         </h2>
       </div>
 
-      {/* Features Section */}
+     
       <div className="flex items-center justify-center flex-col gap-5 lg:gap-10 sm:gap-5 md:gap-6 font-BrickSans mt-[6rem] sm:mt-[8rem] lg:mt-[10rem]">
         <div className="text-white flex flex-col sm:flex-row sm:space-x-12 text-lg sm:text-xl md:text-2xl text-center sm:text-left space-y-4 sm:space-y-0">
           <span>College Rating</span>
