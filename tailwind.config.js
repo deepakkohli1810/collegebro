@@ -13,6 +13,8 @@ export default {
         OpenSans: ['OpenSans-1'],
         Sansita: ['Sansita'],
         SansitaRegular: ['Sansita-Regular'],
+        CanvaSans: ['CanvaSans'],
+        CanvaSansBold: ['CanvaSansBold'],
       },
       colors:{
         blue: {

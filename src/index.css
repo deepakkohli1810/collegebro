@@ -5,7 +5,6 @@
 
 body {
    width: 100dvw;
-   background-color: #fff;
    overflow-x: hidden;
 }
 
@@ -34,7 +33,14 @@ body {
   font-family: 'Sansita-Regular';
   src: url('../assets/Fonts/Sansita-Regular.ttf') format('truetype');
 }
-
+@font-face {
+  font-family: 'CanvaSans';
+  src: url('../assets/Fonts/CanvaSans.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'CanvaSansBold';
+  src: url('../assets/Fonts/CanvaSansBold.woff2') format('woff2');
+}
 }
 
 

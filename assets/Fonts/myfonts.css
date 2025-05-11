@@ -39,3 +39,13 @@
     src: url('Sansita-Regular.ttf') format('trueetype');
    
   }
+  @font-face {
+    font-family: 'CanvaSans';
+    src: url('CanvaSans.woff2') format('woff2');
+   
+  }
+  @font-face {
+    font-family: 'CanvaSansBold';
+    src: url('CanvaSansBold.woff2') format('woff2');
+   
+  }
