@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'boorsok';
+    src: url('boorsok.otf') format('opentype');
+   
+  }
+
+@font-face {
+    font-family: 'Aloja';
+    src: url('Aloja-Light.otf') format('opentype');
+   
+  }
+  @font-face {
+    font-family: 'BrickSans';
+    src: url('NTBrickSans.otf') format('opentype');
+   
+  }
+  @font-face {
+    font-family: 'OpenSans';
+    src: url('OpenSans-1.ttf') format('truetype');
+   
+  }
+  @font-face {
+    font-family: 'OpenSans-2';
+    src: url('OpenSans2.ttf') format('trueetype');
+   
+  }
+  @font-face {
+    font-family: 'Sansita';
+    src: url('Sansita-Black.ttf') format('trueetype');
+   
+  }
+  @font-face {
+    font-family: 'Sansita';
+    src: url('Sansita-Black.ttf') format('trueetype');
+   
+  }
+  @font-face {
+    font-family: 'Sansita-Regular';
+    src: url('Sansita-Regular.ttf') format('trueetype');
+   
+  }

@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+   width: 100dvw;
+   background-color: #fff;
+   overflow-x: hidden;
+}
+
+@layer base {
+    @font-face {
+        font-family: 'Aloja';
+        src: url('../assets/Fonts/Aloja-Light.otf') format('opentype');
+    } 
+    @font-face {
+        font-family: 'boorsok';
+        src: url('../assets/Fonts/boorsok.otf') format('opentype');
+    } 
+    @font-face {
+      font-family: 'BrickSans';
+      src: url('../assets/Fonts/NTBrickSans.otf') format('opentype');
+  }  
+  @font-face {
+    font-family: 'OpenSans';
+   src: url('../assets/Fonts/OpenSans-1.ttf') format('truetype');
+}  
+@font-face {
+  font-family: 'Sansita';
+  src: url('../assets/Fonts/Sansita-Black.ttf') format('truetype');
+}  
+@font-face {
+  font-family: 'Sansita-Regular';
+  src: url('../assets/Fonts/Sansita-Regular.ttf') format('truetype');
+}
+
+}
+
+
