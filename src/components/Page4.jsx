@@ -1,5 +1,5 @@
 import React from 'react';
-
+// import Image from 'public/assets/Images/image-1.jpg'
 
 const Page4 = () => {
   return (
@@ -8,7 +8,7 @@ const Page4 = () => {
    
       <div className="relative w-full lg:w-1/2 h-[60vh] sm:h-[80vh] lg:h-screen">
         <img
-          src='/public/assets/Images/image-1.jpg' // Make sure it's in /public/assets
+          src='/assets/Images/image-1.jpg' // Make sure it's in /public/assets
           alt="Book Exchange"
           className="w-full h-full object-cover"
         />
