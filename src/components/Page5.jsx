@@ -18,6 +18,7 @@ const Page5 = () => {
        
         <div className="relative col-span-1 md:col-span-1">
           <video
+          type="video/mp4"
           preload='auto'
           playsInline
             autoPlay
@@ -37,6 +38,7 @@ const Page5 = () => {
         
           <div className="relative flex-1">
             <video
+            type="video/mp4"
             preload='auto'
           playsInline
               autoPlay
@@ -54,6 +56,7 @@ const Page5 = () => {
          
           <div className="relative flex-1">
             <video
+            type="video/mp4"
             preload='auto'
           playsInline
               autoPlay

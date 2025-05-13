@@ -11,6 +11,7 @@ const Hero = () => {
       <div className="relative z-10 h-dvh w-full flex items-center justify-center px-4 sm:px-8 md:px-12 pt-[5rem]">
        
         <video
+        type="video/mp4"
           src="/assets/Videos/video-1.mp4"
           preload='auto'
           playsInline
