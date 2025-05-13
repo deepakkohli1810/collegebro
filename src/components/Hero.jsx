@@ -8,19 +8,10 @@ const Hero = () => {
       <Navbar />
 
      
-      <div className="relative z-10 h-dvh w-full flex items-center justify-center px-4 sm:px-8 md:px-12 pt-[5rem]">
+      <div className="relative z-10 h-dvh w-full flex items-center justify-center  lg:px-0 sm:px-8 md:px-0 pt-[5rem]">
        
-        <video
-        type="video/mp4"
-          src="/assets/Videos/video-1.mp4"
-          preload='auto'
-          playsInline
-          loop
-          muted
-          autoPlay
-          className="w-full max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[95%] h-[80vh] rounded-3xl object-cover"
-        />
-
+      <img src="/assets/Images/image-5.jpg" 
+      className='object-cover w-full mt-0 lg:mt-16 sm:mt-2 md:top-8 h-[100%] lg:h-[90%]' alt="" />
         
         <h1 className="absolute text-center text-4xl sm:text-4xl md:text-6xl lg:text-8xl font-Sansita text-white font-bold leading-tighter">
           Connect And Collab.
