@@ -18,11 +18,13 @@ const Page5 = () => {
        
         <div className="relative col-span-1 md:col-span-1">
           <video
+          preload='auto'
+          playsInline
             autoPlay
             muted
             loop
             className="w-full h-full object-cover "
-            src="assets/Videos/video-5.mp4"
+            src="/assets/Videos/video-5.mp4"
           />
           <div className="absolute top-10 left-6 text-white z-10">
             <h1 className="text-3xl font-black tracking-tight">Events</h1>
@@ -35,11 +37,13 @@ const Page5 = () => {
         
           <div className="relative flex-1">
             <video
+            preload='auto'
+          playsInline
               autoPlay
               muted
               loop
               className="w-full h-full object-cover "
-              src="assets/Videos/video-3.mp4"
+              src="/assets/Videos/video-3.mp4"
             />
             <div className="absolute top-10 left-6 text-white z-10">
               <h1 className="text-3xl font-black tracking-tight">Events</h1>
@@ -50,11 +54,13 @@ const Page5 = () => {
          
           <div className="relative flex-1">
             <video
+            preload='auto'
+          playsInline
               autoPlay
               muted
               loop
               className="w-full h-full object-cover "
-              src="assets/Videos/video-6.mp4"
+              src="/assets/Videos/video-6.mp4"
             />
             <div className="absolute top-10 left-6 text-white z-10">
               <h1 className="text-3xl font-black tracking-tight">Events</h1>

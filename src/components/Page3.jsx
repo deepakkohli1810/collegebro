@@ -6,6 +6,8 @@ const Page3 = () => {
     
       <div className="relative mt-32 sm:mt-14 lg:mt-[10rem]  text-white z-10 h-auto w-screen overflow-y-hidden flex items-center justify-center px-4 sm:px-8 md:px-12">
         <video
+          preload='auto'
+          playsInline
           src="/assets/Videos/video-2.mp4" // Make sure it's in your /public/assets folder
           className="w-full h-[30vh] sm:h-[40vh] md:h-[50vh] object-cover rounded-xl"
           muted
