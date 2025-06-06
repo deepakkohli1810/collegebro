@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +9,7 @@ const Navbar = () => {
     <nav className="bg-black text-white px-4 sm:px-6 md:px-10 lg:px-16 py-4 shadow-md fixed top-0 left-0 right-0 z-50">
       <div className="flex justify-between items-center max-w-[1440px] mx-auto">
        
-        <h1 className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
+        <h1 className="text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold">
           <span className="font-boorsok text-violet-300">College</span>{' '}
           <span className="font-aloja text-cyan">Bro</span>
         </h1>
@@ -21,17 +22,15 @@ const Navbar = () => {
         </div>
 
       
-        <div className="hidden md:flex space-x-8 text-sm lg:text-lg font-sans items-center">
+        <div className="hidden md:flex space-x-8 text-sm lg:text-[17px] font-sans items-center">
           <a href="#" className="hover:text-violet-300 transition">Colleges</a>
           <a href="#" className="hover:text-violet-300 transition">Communities</a>
           <a href="#" className="hover:text-violet-300 transition">Exchange Books</a>
           <a href="#" className="hover:text-violet-300 transition">Events</a>
-          <a
-            href="#"
-            className="hover:text-violet-300 hover:bg-white bg-violet-300 text-white px-4 py-2 rounded-xl transition"
-          >
-            Sign Up
-          </a>
+     
+          <Link to="/Register"  className="hover:text-violet-300 hover:bg-white bg-violet-300 text-white px-4 py-2 rounded-xl transition"  >
+          Sign Up
+          </Link>
         </div>
       </div>
 
@@ -46,12 +45,9 @@ const Navbar = () => {
           <a href="#" className="hover:text-violet-300 transition">Communities</a>
           <a href="#" className="hover:text-violet-300 transition">Exchange Books</a>
           <a href="#" className="hover:text-violet-300 transition">Events</a>
-          <a
-            href="#"
-            className="hover:text-violet-300 hover:bg-white bg-violet-300 text-white px-3 py-2 rounded-xl transition"
-          >
-            Sign Up
-          </a>
+         <Link to="/Register"  className="hover:text-violet-300 hover:bg-white bg-violet-300 text-white px-4 py-2 rounded-xl transition"  >
+          Sign Up
+          </Link>
         </div>
       </div>
     </nav>
